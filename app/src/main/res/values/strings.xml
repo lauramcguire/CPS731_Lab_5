@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CPS731 Lab 5</string>
+    <string name="title_recipe_list">Recipes</string>
+    <string name="title_recipe_detail">Recipe Details</string>
+</resources>
