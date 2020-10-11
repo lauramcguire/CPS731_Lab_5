@@ -36,7 +36,7 @@ public class DummyContent {
                 "Ingredients:\n\nmacaroni\ntuna\ncream of chicken soup\ncheddar cheese\nfriend onions", 2));
         addItem(new DummyItem("Ground Beef Noodles", "Ramen noodles topped with ground beef, tomato, and corn.",
                 "Ingredients:\n\nground beef\nramen noodles\ndiced tomatoes\ncorn", 3));
-        addItem(new DummyItem("Smoked Cheese Ravioli", ">Creamy cheese ravioli with smoked gouda.",
+        addItem(new DummyItem("Smoked Cheese Ravioli", "Creamy cheese ravioli with smoked gouda.",
                 "Ingredients:\n\nfrozen ravioli\ncream\nGouda cheese\nfresh parsley\npepper", 4));
         addItem(new DummyItem("Pesto Chicken", "Chicken breast topped with basil pesto and prosciutto.",
                 "Ingredients:\n\nchicken breast\nbasil pesto\nprosciutto", 5));
