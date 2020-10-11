@@ -28,9 +28,6 @@ public class RecipeDetailFragment extends Fragment {
      */
     public static final String ARG_ITEM_ID = "item_id";
 
-    private int[] images = {R.drawable.img1, R.drawable.img2, R.drawable.img3, R.drawable.img4, R.drawable.img5,
-            R.drawable.img6, R.drawable.img7, R.drawable.img8, R.drawable.img9, R.drawable.img10,
-            R.drawable.img11, R.drawable.img12, R.drawable.img13};
     /**
      * The dummy content this fragment is presenting.
      */
@@ -70,7 +67,7 @@ public class RecipeDetailFragment extends Fragment {
         if (mItem != null) {
             ((TextView) rootView.findViewById(R.id.recipe_detail)).setText(mItem.ingredientsStr);
             //Set this to be of the respective image
-            ((ImageView) rootView.findViewById(R.id.picture)).setImageResource(images[mItem.image]);
+            ((ImageView) rootView.findViewById(R.id.picture)).setImageResource(mItem.image);
         }
 
         return rootView;

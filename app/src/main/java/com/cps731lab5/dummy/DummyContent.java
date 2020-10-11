@@ -1,5 +1,7 @@
 package com.cps731lab5.dummy;
 
+import com.cps731lab5.R;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -26,27 +28,27 @@ public class DummyContent {
     static {
         //Add recipes
         addItem(new DummyItem("Chicken Cordon Bleu", "Chicken filled with ham and swiss cheese, topped with bread crumbs.",
-                "Ingredients:\n\nchicken\nsalt\npepper\nswiss cheese\nham\nbread crumbs", 0));
+                "Ingredients:\n\nchicken\nsalt\npepper\nswiss cheese\nham\nbread crumbs", R.drawable.img1));
         addItem(new DummyItem("Tuna Casserole", "Macaroni with tuna in cream of chicken soup sauce with cheese and fried onions.",
-                "Ingredients:\n\nmacaroni\ntuna\ncream of chicken soup\ncheddar cheese\nfriend onions", 1));
+                "Ingredients:\n\nmacaroni\ntuna\ncream of chicken soup\ncheddar cheese\nfriend onions", R.drawable.img2));
         addItem(new DummyItem("Ground Beef Noodles", "Ramen noodles topped with ground beef, tomato, and corn.",
-                "Ingredients:\n\nground beef\nramen noodles\ndiced tomatoes\ncorn", 2));
+                "Ingredients:\n\nground beef\nramen noodles\ndiced tomatoes\ncorn", R.drawable.img3));
         addItem(new DummyItem("Smoked Cheese Ravioli", "Creamy cheese ravioli with smoked gouda.",
-                "Ingredients:\n\nfrozen ravioli\ncream\nGouda cheese\nfresh parsley\npepper", 3));
+                "Ingredients:\n\nfrozen ravioli\ncream\nGouda cheese\nfresh parsley\npepper", R.drawable.img4));
         addItem(new DummyItem("Pesto Chicken", "Chicken breast topped with basil pesto and prosciutto.",
-                "Ingredients:\n\nchicken breast\nbasil pesto\nprosciutto", 4));
+                "Ingredients:\n\nchicken breast\nbasil pesto\nprosciutto", R.drawable.img5));
         addItem(new DummyItem("Roasted Butternut Squash", "Butternut squash baked with olive oil, salt, and pepper.",
-                "Ingredients:\n\nbutternut squash\nolive oil\npepper\nsalt\npepper", 5));
+                "Ingredients:\n\nbutternut squash\nolive oil\npepper\nsalt\npepper", R.drawable.img6));
         addItem(new DummyItem("Miso-Glazed Turnips", "Charred turnips coated in miso, butter, sugar, pepper, and lemon.",
-                "Ingredients:\n\nturnips\nmiso\nbutter\nsugar\npepper\nlemon", 6));
+                "Ingredients:\n\nturnips\nmiso\nbutter\nsugar\npepper\nlemon", R.drawable.img7));
         addItem(new DummyItem("Charred Leeks With Honey and Vinegar", "Leeks glazed in vinegar, honey, and olive oil.",
-                "Ingredients:\n\nleeks\nvinegar\nhoney\nolive oil", 7));
+                "Ingredients:\n\nleeks\nvinegar\nhoney\nolive oil", R.drawable.img8));
         addItem(new DummyItem("Collard Greens", "Sauteed collard greens, bacon, and onions seasoned with chili and salt.",
-                "Ingredients:\n\nonion\nolive oil\nbacon\npepper\ncollard greens\nchili\nsalt", 8));
+                "Ingredients:\n\nonion\nolive oil\nbacon\npepper\ncollard greens\nchili\nsalt", R.drawable.img9));
         addItem(new DummyItem("Jammy Eggs with Paprika Aioli", "Soft boiled eggs topped with pepperoncini, parsley, mayonnaise, paprika, and salt.",
-                "Ingredients:\n\neggs\npepperoncini\nparsley\nmayonnaise\npaprika\nsalt", 9));
+                "Ingredients:\n\neggs\npepperoncini\nparsley\nmayonnaise\npaprika\nsalt", R.drawable.img10));
         addItem(new DummyItem("Pasta al Limone", "Spaghetti with butter cream sauce spiced topped with salt, pepper, and lemon.",
-                "Ingredients:\n\nspaghetti\nlemon\nsalt\ncream\nbutter\ncheese\npepper", 10));
+                "Ingredients:\n\nspaghetti\nlemon\nsalt\ncream\nbutter\ncheese\npepper", R.drawable.img11));
     }
 
     /* A dummy item representing a piece of content. */
