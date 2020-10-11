@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
-    android:background="@drawable/spash_background">
+    android:background="@drawable/cook">
 
     <TextView
         android:id="@+id/textView"
@@ -13,6 +13,7 @@
         android:layout_height="70dp"
         android:gravity="center"
         android:text="Recipes"
+        android:textColor="#000000"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.427" />
+        app:layout_constraintVertical_bias="0.458" />
 
     <TextView
         android:id="@+id/textView2"
@@ -28,10 +29,11 @@
         android:layout_height="41dp"
         android:gravity="center"
         android:text="please wait..."
+        android:textColor="#F0020202"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
