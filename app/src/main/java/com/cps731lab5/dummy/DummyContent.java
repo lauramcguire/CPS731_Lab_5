@@ -9,18 +9,13 @@ import java.util.Map;
  * Helper class for providing sample content for user interfaces created by
  * Android template wizards.
  * <p>
- * TODO: Replace all uses of this class before publishing your app.
  */
 public class DummyContent {
 
-    /**
-     * An array of sample (dummy) items.
-     */
+    /* An array of sample (dummy) items.*/
     public static final List<DummyItem> ITEMS = new ArrayList<DummyItem>();
 
-    /**
-     * A map of sample (dummy) items, by ID.
-     */
+    /* A map of sample (dummy) items, by ID.*/
     public static final Map<String, DummyItem> ITEM_MAP = new HashMap<String, DummyItem>();
 
     private static void addItem(DummyItem item) {
@@ -54,9 +49,7 @@ public class DummyContent {
                 "Ingredients:\n\nspaghetti\nlemon\nsalt\ncream\nbutter\ncheese\npepper", 11));
     }
 
-    /**
-     * A dummy item representing a piece of content.
-     */
+    /* A dummy item representing a piece of content. */
     public static class DummyItem {
         public final String recipeStr;
         public final String descriptionStr;
@@ -69,7 +62,7 @@ public class DummyContent {
             this.ingredientsStr = ingredientsStr;
             this.image = image;
         }
-        //MAY WANT DIFFERENT VALUE HERE
+
         @Override
         public String toString() {
             return ingredientsStr;
